@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <NuxtPage />
-  </div>
+  <NuxtPage />
 </template>
 
 <style>
@@ -21,5 +19,16 @@ body {
 
   font-family: "Pangolin", cursive;
   font-weight: 500;
+}
+</style>
+
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition: 0.3s ease-in-out;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
 }
 </style>
